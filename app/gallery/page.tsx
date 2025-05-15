@@ -26,309 +26,12 @@ export default function GalleryPage() {
 
   const galleryItems: GalleryItem[] = [
   {
-    "id": 1,
-    "title": "Living Space Revitalized with Neutral Paint Application",
-    "category": "interior",
-    "description": "Application of neutral-toned paint on the walls of this living space, creating a bright and airy atmosphere. The paint job enhances the architectural details and provides a pristine backdrop for future décor.",
-    "imageBefore": "/gallery/image-1.jpeg",
-    "imageAfter": "/gallery/image-1.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 2,
-    "title": "Classic White Interior Door Painting Service",
-    "category": "interior",
-    "description": "Painting service for a six-panel interior door, using high-quality white paint for an elegant finish that complements various decor styles.",
-    "imageBefore": "/gallery/image-2.jpeg",
-    "imageAfter": "/gallery/image-2.jpeg",
-    "isBeforeAfter": false
-  },
-  {
     "id": 3,
     "title": "Painting Transformation in Open Kitchen and Living Area",
     "category": "interior",
     "description": "Painting project that visually integrated the kitchen and living room with a neutral color palette. The result is a modern and inviting space, with paintwork that highlights the clean lines and architectural features.",
     "imageBefore": "/gallery/image-3.jpeg",
     "imageAfter": "/gallery/image-3.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 4,
-    "title": "Interior Hallway with Fresh Neutral Paint Coat",
-    "category": "interior",
-    "description": "Professional paint application in an interior hallway, using a neutral tone that amplified the brightness and provided a clean, contemporary look to the space.",
-    "imageBefore": "/gallery/image-4.jpeg",
-    "imageAfter": "/gallery/image-4.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 5,
-    "title": "Closet Door Renovation with White Paint",
-    "category": "interior",
-    "description": "Painting service that revitalized this interior closet door with a coat of white paint, providing a fresh and updated appearance integrated with the surrounding wall.",
-    "imageBefore": "/gallery/image-5.jpeg",
-    "imageAfter": "/gallery/image-5.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 6,
-    "title": "Bedroom Painting in Neutral Tones with White Doors",
-    "category": "interior",
-    "description": "Painting work in a bedroom, using neutral tones on the walls to create a serene atmosphere, with a focus on the crisp white finish on the doors.",
-    "imageBefore": "/gallery/image-6.jpeg",
-    "imageAfter": "/gallery/image-6.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 7,
-    "title": "Painting Service in Newly Installed Kitchen",
-    "category": "interior",
-    "description": "Painting project in a newly installed kitchen with dark cabinets, where the wall paint complements the tones of the furniture and light countertop.",
-    "imageBefore": "/gallery/image-7.jpeg",
-    "imageAfter": "/gallery/image-7.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 8,
-    "title": "Vibrant Painting in School Hallway",
-    "category": "commercial",
-    "description": "Painting service in a school hallway, combining blue, beige, and orange accents to create a cheerful and well-lit environment ideal for an educational setting.",
-    "imageBefore": "/gallery/image-8.jpeg",
-    "imageAfter": "/gallery/image-8.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 9,
-    "title": "Painting Preparation in School Cafeteria",
-    "category": "commercial",
-    "description": "Image of a school cafeteria in the process of being prepared for painting, with tables and chairs moved and areas isolated, aiming for the space's renovation.",
-    "imageBefore": "/gallery/image-9.jpeg",
-    "imageAfter": "/gallery/image-9.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 10,
-    "title": "Painting in Spacious and Bright School Cafeteria",
-    "category": "commercial",
-    "description": "Painting project that revitalized this large school cafeteria with light and uniform colors, taking advantage of natural light to create a functional and pleasant space.",
-    "imageBefore": "/gallery/image-10.jpeg",
-    "imageAfter": "/gallery/image-10.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 11,
-    "title": "Modern School Corridor with Blue Accent Painting",
-    "category": "commercial",
-    "description": "Painting work in a modern school corridor, with neutral-toned walls and architectural details highlighted by blue paint on the door frames.",
-    "imageBefore": "/gallery/image-11.jpeg",
-    "imageAfter": "/gallery/image-11.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 12,
-    "title": "Painting in Elementary School Hallway with Lockers",
-    "category": "commercial",
-    "description": "Painting service in a school hallway with blue lockers and orange accents, creating a stimulating and welcoming environment for students.",
-    "imageBefore": "/gallery/image-12.jpeg",
-    "imageAfter": "/gallery/image-12.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 13,
-    "title": "Custom Exterior Painting of a Modern School Building",
-    "category": "commercial",
-    "description": "Exterior painting project on a contemporary school building, with colors and finishes that enhance the architectural design and visual identity of the institution.",
-    "imageBefore": "/gallery/image-13.jpeg",
-    "imageAfter": "/gallery/image-13.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 14,
-    "title": "Classroom Painting Preparation",
-    "category": "commercial",
-    "description": "Image of a classroom in the preparation phase for painting, with marked walls and materials ready for the application of the new color.",
-    "imageBefore": "/gallery/image-14.jpeg",
-    "imageAfter": "/gallery/image-14.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 15,
-    "title": "Painting in School Hallway with Vibrant Colors",
-    "category": "commercial",
-    "description": "Painting work that transformed this school hallway with a combination of blue, beige, and orange details, resulting in a cheerful and inviting space.",
-    "imageBefore": "/gallery/image-15.jpeg",
-    "imageAfter": "/gallery/image-15.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 16,
-    "title": "Office Reception with Blue Accent Wall Painting",
-    "category": "commercial",
-    "description": "Painting service in an office reception area, featuring a blue accent wall that adds style and modernity to the commercial environment.",
-    "imageBefore": "/gallery/image-16.jpeg",
-    "imageAfter": "/gallery/image-16.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 17,
-    "title": "Painting in Accessible Commercial Restroom",
-    "category": "commercial",
-    "description": "Painting project in a commercial restroom, ensuring a clean and durable finish, while complementing the accessibility features of the space.",
-    "imageBefore": "/gallery/image-17.jpeg",
-    "imageAfter": "/gallery/image-17.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 18,
-    "title": "Commercial Hallway with Modern Gray Paint",
-    "category": "commercial",
-    "description": "Application of gray paint in a commercial hallway, creating a professional and contemporary atmosphere, with doors that received a similar finish.",
-    "imageBefore": "/gallery/image-18.jpeg",
-    "imageAfter": "/gallery/image-18.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 20,
-    "title": "Painting in Small Office Kitchenette",
-    "category": "commercial",
-    "description": "Painting service in a small office kitchenette, using light colors that optimize lighting and create a functional environment for daily use.",
-    "imageBefore": "/gallery/image-20.jpeg",
-    "imageAfter": "/gallery/image-20.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 21,
-    "title": "Painting in Commercial Kitchenette with Safety Focus",
-    "category": "commercial",
-    "description": "Painting project in a commercial kitchenette, with a durable and easy-to-clean finish, integrating safety elements such as the fire extinguisher.",
-    "imageBefore": "/gallery/image-21.jpeg",
-    "imageAfter": "/gallery/image-21.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 22,
-    "title": "Finishing of Gray Interior Door with Gold Detail",
-    "category": "commercial",
-    "description": "Painting service that enhanced this gray interior door with a flawless finish, complemented by the gold handle, an elegant detail in the commercial space.",
-    "imageBefore": "/gallery/image-22.jpeg",
-    "imageAfter": "/gallery/image-22.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 23,
-    "title": "Painting in Functional Office Space",
-    "category": "commercial",
-    "description": "Painting work in a busy office, using neutral colors that provide a functional and distraction-free work environment.",
-    "imageBefore": "/gallery/image-23.jpeg",
-    "imageAfter": "/gallery/image-23.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 24,
-    "title": "Organization and Painting in Office Workspace",
-    "category": "commercial",
-    "description": "Painting project that contributed to an organized and visually pleasing office workspace, with colors that favor concentration.",
-    "imageBefore": "/gallery/image-24.jpeg",
-    "imageAfter": "/gallery/image-24.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 25,
-    "title": "Painting in Office Area with Exit Signage",
-    "category": "commercial",
-    "description": "Painting service in an office area, with attention to lighting and the integration of exit signage, ensuring a safe and well-finished environment.",
-    "imageBefore": "/gallery/image-25.jpeg",
-    "imageAfter": "/gallery/image-25.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 26,
-    "title": "Office Painting with Angled Ceiling Expertise",
-    "category": "commercial",
-    "description": "Painting challenge in an office with an angled ceiling, using techniques that enhanced the architecture of the space and provided a uniform finish.",
-    "imageBefore": "/gallery/image-26.jpeg",
-    "imageAfter": "/gallery/image-26.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 27,
-    "title": "Painting in Modern Reception with Blue Accent",
-    "category": "commercial",
-    "description": "Painting project that transformed this modern reception area with a blue accent wall, creating an elegant and inviting focal point.",
-    "imageBefore": "/gallery/image-27.jpeg",
-    "imageAfter": "/gallery/image-27.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 28,
-    "title": "Commercial Interior Painting with Scissor Lift",
-    "category": "commercial",
-    "description": "Painting service in a large commercial interior, utilizing a scissor lift to reach high areas and ensure a professional and uniform finish.",
-    "imageBefore": "/gallery/image-28.jpeg",
-    "imageAfter": "/gallery/image-28.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 29,
-    "title": "Residential Exterior Painting in Dark Blue",
-    "category": "exterior",
-    "description": "Transformation of the facade of this two-story house with dark blue paint and white trim, enhancing the architecture and beauty of the residence.",
-    "imageBefore": "/gallery/image-29.jpeg",
-    "imageAfter": "/gallery/image-29.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 30,
-    "title": "Residential Facade Preparation for Painting",
-    "category": "exterior",
-    "description": "Preparation stage of this house's facade for painting, with removal of old paint and necessary repairs to ensure perfect adhesion of the new yellow color.",
-    "imageBefore": "/gallery/image-30.jpeg",
-    "imageAfter": "/gallery/image-30.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 31,
-    "title": "Modern Kitchenette Painting with Blue Tile Accent",
-    "category": "interior",
-    "description": "Painting service that harmonized the white cabinets and light countertop of this modern kitchenette with an elegant dark blue tiled backsplash.",
-    "imageBefore": "/gallery/image-31.jpeg",
-    "imageAfter": "/gallery/image-31.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 32,
-    "title": "Painting in Empty Room with Protected Furniture",
-    "category": "interior",
-    "description": "Painting work in an empty room, with furniture carefully covered for protection, ensuring a flawless finish on the white walls.",
-    "imageBefore": "/gallery/image-32.jpeg",
-    "imageAfter": "/gallery/image-32.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 33,
-    "title": "Painting in School Hallway with Organization System",
-    "category": "commercial",
-    "description": "Painting service in a school hallway, with colors that complement the organization system of shelves and containers, creating a functional and pleasant environment.",
-    "imageBefore": "/gallery/image-33.jpeg",
-    "imageAfter": "/gallery/image-33.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 34,
-    "title": "Painting in School Gymnasium with Padded Walls",
-    "category": "commercial",
-    "description": "Painting project that revitalized the interior of this school gymnasium, with vibrant colors on the padded walls and the sports court.",
-    "imageBefore": "/gallery/image-34.jpeg",
-    "imageAfter": "/gallery/image-34.jpeg",
-    "isBeforeAfter": false
-  },
-  {
-    "id": 35,
-    "title": "Painting at The Woodsum Gymnasium Entrance",
-    "category": "commercial",
-    "description": "Painting work in the entrance area of The Woodsum Gymnasium, with neutral tones and blue accents enhancing the welcoming atmosphere.",
-    "imageBefore": "/gallery/image-35.jpeg",
-    "imageAfter": "/gallery/image-35.jpeg",
     "isBeforeAfter": false
   },
   {
@@ -341,30 +44,39 @@ export default function GalleryPage() {
     "isBeforeAfter": true
   },
   {
-    "id": 39,
-    "title": "Dining Room Interior Painting Preparation",
-    "category": "interior",
-    "description": "Interior painting project in a dining room, showing the preparation phase with teal upper walls and white wainscoting ready for the final coat.",
-    "imageBefore": "/gallery/image-38.jpeg",
-    "imageAfter": "/gallery/image-39.jpeg",
-    "isBeforeAfter": true
+    "id": 13,
+    "title": "Custom Exterior Painting of a Modern School Building",
+    "category": "commercial",
+    "description": "Exterior painting project on a contemporary school building, with colors and finishes that enhance the architectural design and visual identity of the institution.",
+    "imageBefore": "/gallery/image-13.jpeg",
+    "imageAfter": "/gallery/image-13.jpeg",
+    "isBeforeAfter": false
   },
   {
-    "id": 41,
-    "title": "Bright Living Room Interior Painting",
-    "category": "interior",
-    "description": "Interior painting service in a living room, applying fresh white paint to the walls, complementing the stone fireplace and hardwood floors.",
-    "imageBefore": "/gallery/image-40.jpeg",
-    "imageAfter": "/gallery/image-41.jpeg",
-    "isBeforeAfter": true
+    "id": 25,
+    "title": "Painting in Office Area with Exit Signage",
+    "category": "commercial",
+    "description": "Painting service in an office area, with attention to lighting and the integration of exit signage, ensuring a safe and well-finished environment.",
+    "imageBefore": "/gallery/image-25.jpeg",
+    "imageAfter": "/gallery/image-25.jpeg",
+    "isBeforeAfter": false
   },
-        {
-    "id": 42,
-    "title": "Exterior House Painting with New Gray Siding",
+  {
+    "id": 30,
+    "title": "Residential Facade Preparation for Painting",
     "category": "exterior",
-    "description": "Exterior painting project on this two-story house, featuring newly applied gray siding and black shutters for a refreshed and modern look.",
-    "imageBefore": "/gallery/image-42.jpeg",
-    "imageAfter": "/gallery/image-42.jpeg",
+    "description": "Preparation stage of this house's facade for painting, with removal of old paint and necessary repairs to ensure perfect adhesion of the new yellow color.",
+    "imageBefore": "/gallery/image-30.jpeg",
+    "imageAfter": "/gallery/image-30.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 1,
+    "title": "Living Space Revitalized with Neutral Paint Application",
+    "category": "interior",
+    "description": "Application of neutral-toned paint on the walls of this living space, creating a bright and airy atmosphere. The paint job enhances the architectural details and provides a pristine backdrop for future décor.",
+    "imageBefore": "/gallery/image-1.jpeg",
+    "imageAfter": "/gallery/image-1.jpeg",
     "isBeforeAfter": false
   },
   {
@@ -377,49 +89,22 @@ export default function GalleryPage() {
     "isBeforeAfter": true
   },
   {
-    "id": 46,
-    "title": "Interior Painting of Living Room with Fireplace and Shelving",
-    "category": "interior",
-    "description": "Interior painting work in a spacious living room with gray built-in shelves and a fireplace, showcasing the freshly painted millwork and light hardwood floors.",
-    "imageBefore": "/gallery/image-45.jpeg",
-    "imageAfter": "/gallery/image-46.jpeg",
-    "isBeforeAfter": true
+    "id": 14,
+    "title": "Classroom Painting Preparation",
+    "category": "commercial",
+    "description": "Image of a classroom in the preparation phase for painting, with marked walls and materials ready for the application of the new color.",
+    "imageBefore": "/gallery/image-14.jpeg",
+    "imageAfter": "/gallery/image-14.jpeg",
+    "isBeforeAfter": false
   },
   {
-    "id": 48,
-    "title": "Bathroom Interior Painting with Dark Vanity Focus",
-    "category": "interior",
-    "description": "Interior painting project in a bathroom, using a light neutral tone on the walls to contrast and highlight the dark-colored vanity with marble countertop and gold fixtures.",
-    "imageBefore": "/gallery/image-47.jpeg",
-    "imageAfter": "/gallery/image-48.jpeg",
-    "isBeforeAfter": true
-  },
-  {
-    "id": 50,
-    "title": "Exterior House Painting of Back with Gray Siding",
-    "category": "exterior",
-    "description": "Exterior painting service on the rear of this house, featuring gray siding and a screened-in porch, with a fresh coat enhancing the overall appearance.",
-    "imageBefore": "/gallery/image-49.jpeg",
-    "imageAfter": "/gallery/image-50.jpeg",
-    "isBeforeAfter": true
-  },
-  {
-    "id": 52,
-    "title": "Exterior Painting with Gray Shingle Siding and White Door",
-    "category": "exterior",
-    "description": "Exterior painting project on this house with gray shingle siding, emphasizing the crisp white paint on the back door and the gray painted steps.",
-    "imageBefore": "/gallery/image-51.jpeg",
-    "imageAfter": "/gallery/image-52.jpeg",
-    "isBeforeAfter": true
-  },
-  {
-    "id": 53,
-    "title": "Exterior House Painting with Dark Blue Siding",
-    "category": "exterior",
-    "description": "Exterior painting service on this two-story house, applying a rich dark blue to the siding, creating a striking contrast with the surrounding greenery.",
-    "imageBefore": "/gallery/image-53.jpeg",
-    "imageAfter": "/gallery/image-54.jpeg",
-    "isBeforeAfter": true
+    "id": 11,
+    "title": "Modern School Corridor with Blue Accent Painting",
+    "category": "commercial",
+    "description": "Painting work in a modern school corridor, with neutral-toned walls and architectural details highlighted by blue paint on the door frames.",
+    "imageBefore": "/gallery/image-11.jpeg",
+    "imageAfter": "/gallery/image-11.jpeg",
+    "isBeforeAfter": false
   },
   {
     "id": 55,
@@ -431,6 +116,312 @@ export default function GalleryPage() {
     "isBeforeAfter": false
   },
   {
+    "id": 31,
+    "title": "Modern Kitchenette Painting with Blue Tile Accent",
+    "category": "interior",
+    "description": "Painting service that harmonized the white cabinets and light countertop of this modern kitchenette with an elegant dark blue tiled backsplash.",
+    "imageBefore": "/gallery/image-31.jpeg",
+    "imageAfter": "/gallery/image-31.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 20,
+    "title": "Painting in Small Office Kitchenette",
+    "category": "commercial",
+    "description": "Painting service in a small office kitchenette, using light colors that optimize lighting and create a functional environment for daily use.",
+    "imageBefore": "/gallery/image-20.jpeg",
+    "imageAfter": "/gallery/image-20.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 2,
+    "title": "Classic White Interior Door Painting Service",
+    "category": "interior",
+    "description": "Painting service for a six-panel interior door, using high-quality white paint for an elegant finish that complements various decor styles.",
+    "imageBefore": "/gallery/image-2.jpeg",
+    "imageAfter": "/gallery/image-2.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 26,
+    "title": "Office Painting with Angled Ceiling Expertise",
+    "category": "commercial",
+    "description": "Painting challenge in an office with an angled ceiling, using techniques that enhanced the architecture of the space and provided a uniform finish.",
+    "imageBefore": "/gallery/image-26.jpeg",
+    "imageAfter": "/gallery/image-26.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 52,
+    "title": "Exterior Painting with Gray Shingle Siding and White Door",
+    "category": "exterior",
+    "description": "Exterior painting project on this house with gray shingle siding, emphasizing the crisp white paint on the back door and the gray painted steps.",
+    "imageBefore": "/gallery/image-51.jpeg",
+    "imageAfter": "/gallery/image-52.jpeg",
+    "isBeforeAfter": true
+  },
+  {
+    "id": 42,
+    "title": "Exterior House Painting with New Gray Siding",
+    "category": "exterior",
+    "description": "Exterior painting project on this two-story house, featuring newly applied gray siding and black shutters for a refreshed and modern look.",
+    "imageBefore": "/gallery/image-42.jpeg",
+    "imageAfter": "/gallery/image-42.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 10,
+    "title": "Painting in Spacious and Bright School Cafeteria",
+    "category": "commercial",
+    "description": "Painting project that revitalized this large school cafeteria with light and uniform colors, taking advantage of natural light to create a functional and pleasant space.",
+    "imageBefore": "/gallery/image-10.jpeg",
+    "imageAfter": "/gallery/image-10.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 29,
+    "title": "Residential Exterior Painting in Dark Blue",
+    "category": "exterior",
+    "description": "Transformation of the facade of this two-story house with dark blue paint and white trim, enhancing the architecture and beauty of the residence.",
+    "imageBefore": "/gallery/image-29.jpeg",
+    "imageAfter": "/gallery/image-29.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 33,
+    "title": "Painting in School Hallway with Organization System",
+    "category": "commercial",
+    "description": "Painting service in a school hallway, with colors that complement the organization system of shelves and containers, creating a functional and pleasant environment.",
+    "imageBefore": "/gallery/image-33.jpeg",
+    "imageAfter": "/gallery/image-33.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 35,
+    "title": "Painting at The Woodsum Gymnasium Entrance",
+    "category": "commercial",
+    "description": "Painting work in the entrance area of The Woodsum Gymnasium, with neutral tones and blue accents enhancing the welcoming atmosphere.",
+    "imageBefore": "/gallery/image-35.jpeg",
+    "imageAfter": "/gallery/image-35.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 27,
+    "title": "Painting in Modern Reception with Blue Accent",
+    "category": "commercial",
+    "description": "Painting project that transformed this modern reception area with a blue accent wall, creating an elegant and inviting focal point.",
+    "imageBefore": "/gallery/image-27.jpeg",
+    "imageAfter": "/gallery/image-27.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 50,
+    "title": "Exterior House Painting of Back with Gray Siding",
+    "category": "exterior",
+    "description": "Exterior painting service on the rear of this house, featuring gray siding and a screened-in porch, with a fresh coat enhancing the overall appearance.",
+    "imageBefore": "/gallery/image-49.jpeg",
+    "imageAfter": "/gallery/image-50.jpeg",
+    "isBeforeAfter": true
+  },
+  {
+    "id": 46,
+    "title": "Interior Painting of Living Room with Fireplace and Shelving",
+    "category": "interior",
+    "description": "Interior painting work in a spacious living room with gray built-in shelves and a fireplace, showcasing the freshly painted millwork and light hardwood floors.",
+    "imageBefore": "/gallery/image-45.jpeg",
+    "imageAfter": "/gallery/image-46.jpeg",
+    "isBeforeAfter": true
+  },
+  {
+    "id": 15,
+    "title": "Painting in School Hallway with Vibrant Colors",
+    "category": "commercial",
+    "description": "Painting work that transformed this school hallway with a combination of blue, beige, and orange details, resulting in a cheerful and inviting space.",
+    "imageBefore": "/gallery/image-15.jpeg",
+    "imageAfter": "/gallery/image-15.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 7,
+    "title": "Painting Service in Newly Installed Kitchen",
+    "category": "interior",
+    "description": "Painting project in a newly installed kitchen with dark cabinets, where the wall paint complements the tones of the furniture and light countertop.",
+    "imageBefore": "/gallery/image-7.jpeg",
+    "imageAfter": "/gallery/image-7.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 21,
+    "title": "Painting in Commercial Kitchenette with Safety Focus",
+    "category": "commercial",
+    "description": "Painting project in a commercial kitchenette, with a durable and easy-to-clean finish, integrating safety elements such as the fire extinguisher.",
+    "imageBefore": "/gallery/image-21.jpeg",
+    "imageAfter": "/gallery/image-21.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 17,
+    "title": "Painting in Accessible Commercial Restroom",
+    "category": "commercial",
+    "description": "Painting project in a commercial restroom, ensuring a clean and durable finish, while complementing the accessibility features of the space.",
+    "imageBefore": "/gallery/image-17.jpeg",
+    "imageAfter": "/gallery/image-17.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 23,
+    "title": "Painting in Functional Office Space",
+    "category": "commercial",
+    "description": "Painting work in a busy office, using neutral colors that provide a functional and distraction-free work environment.",
+    "imageBefore": "/gallery/image-23.jpeg",
+    "imageAfter": "/gallery/image-23.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 28,
+    "title": "Commercial Interior Painting with Scissor Lift",
+    "category": "commercial",
+    "description": "Painting service in a large commercial interior, utilizing a scissor lift to reach high areas and ensure a professional and uniform finish.",
+    "imageBefore": "/gallery/image-28.jpeg",
+    "imageAfter": "/gallery/image-28.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 4,
+    "title": "Interior Hallway with Fresh Neutral Paint Coat",
+    "category": "interior",
+    "description": "Professional paint application in an interior hallway, using a neutral tone that amplified the brightness and provided a clean, contemporary look to the space.",
+    "imageBefore": "/gallery/image-4.jpeg",
+    "imageAfter": "/gallery/image-4.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 22,
+    "title": "Finishing of Gray Interior Door with Gold Detail",
+    "category": "commercial",
+    "description": "Painting service that enhanced this gray interior door with a flawless finish, complemented by the gold handle, an elegant detail in the commercial space.",
+    "imageBefore": "/gallery/image-22.jpeg",
+    "imageAfter": "/gallery/image-22.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 5,
+    "title": "Closet Door Renovation with White Paint",
+    "category": "interior",
+    "description": "Painting service that revitalized this interior closet door with a coat of white paint, providing a fresh and updated appearance integrated with the surrounding wall.",
+    "imageBefore": "/gallery/image-5.jpeg",
+    "imageAfter": "/gallery/image-5.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 8,
+    "title": "Vibrant Painting in School Hallway",
+    "category": "commercial",
+    "description": "Painting service in a school hallway, combining blue, beige, and orange accents to create a cheerful and well-lit environment ideal for an educational setting.",
+    "imageBefore": "/gallery/image-8.jpeg",
+    "imageAfter": "/gallery/image-8.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 53,
+    "title": "Exterior House Painting with Dark Blue Siding",
+    "category": "exterior",
+    "description": "Exterior painting service on this two-story house, applying a rich dark blue to the siding, creating a striking contrast with the surrounding greenery.",
+    "imageBefore": "/gallery/image-53.jpeg",
+    "imageAfter": "/gallery/image-54.jpeg",
+    "isBeforeAfter": true
+  },
+  {
+    "id": 39,
+    "title": "Dining Room Interior Painting Preparation",
+    "category": "interior",
+    "description": "Interior painting project in a dining room, showing the preparation phase with teal upper walls and white wainscoting ready for the final coat.",
+    "imageBefore": "/gallery/image-38.jpeg",
+    "imageAfter": "/gallery/image-39.jpeg",
+    "isBeforeAfter": true
+  },
+  {
+    "id": 6,
+    "title": "Bedroom Painting in Neutral Tones with White Doors",
+    "category": "interior",
+    "description": "Painting work in a bedroom, using neutral tones on the walls to create a serene atmosphere, with a focus on the crisp white finish on the doors.",
+    "imageBefore": "/gallery/image-6.jpeg",
+    "imageAfter": "/gallery/image-6.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 41,
+    "title": "Bright Living Room Interior Painting",
+    "category": "interior",
+    "description": "Interior painting service in a living room, applying fresh white paint to the walls, complementing the stone fireplace and hardwood floors.",
+    "imageBefore": "/gallery/image-40.jpeg",
+    "imageAfter": "/gallery/image-41.jpeg",
+    "isBeforeAfter": true
+  },
+  {
+    "id": 9,
+    "title": "Painting Preparation in School Cafeteria",
+    "category": "commercial",
+    "description": "Image of a school cafeteria in the process of being prepared for painting, with tables and chairs moved and areas isolated, aiming for the space's renovation.",
+    "imageBefore": "/gallery/image-9.jpeg",
+    "imageAfter": "/gallery/image-9.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 16,
+    "title": "Office Reception with Blue Accent Wall Painting",
+    "category": "commercial",
+    "description": "Painting service in an office reception area, featuring a blue accent wall that adds style and modernity to the commercial environment.",
+    "imageBefore": "/gallery/image-16.jpeg",
+    "imageAfter": "/gallery/image-16.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 18,
+    "title": "Commercial Hallway with Modern Gray Paint",
+    "category": "commercial",
+    "description": "Application of gray paint in a commercial hallway, creating a professional and contemporary atmosphere, with doors that received a similar finish.",
+    "imageBefore": "/gallery/image-18.jpeg",
+    "imageAfter": "/gallery/image-18.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 12,
+    "title": "Painting in Elementary School Hallway with Lockers",
+    "category": "commercial",
+    "description": "Painting service in a school hallway with blue lockers and orange accents, creating a stimulating and welcoming environment for students.",
+    "imageBefore": "/gallery/image-12.jpeg",
+    "imageAfter": "/gallery/image-12.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 34,
+    "title": "Painting in School Gymnasium with Padded Walls",
+    "category": "commercial",
+    "description": "Painting project that revitalized the interior of this school gymnasium, with vibrant colors on the padded walls and the sports court.",
+    "imageBefore": "/gallery/image-34.jpeg",
+    "imageAfter": "/gallery/image-34.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 32,
+    "title": "Painting in Empty Room with Protected Furniture",
+    "category": "interior",
+    "description": "Painting work in an empty room, with furniture carefully covered for protection, ensuring a flawless finish on the white walls.",
+    "imageBefore": "/gallery/image-32.jpeg",
+    "imageAfter": "/gallery/image-32.jpeg",
+    "isBeforeAfter": false
+  },
+  {
+    "id": 48,
+    "title": "Bathroom Interior Painting with Dark Vanity Focus",
+    "category": "interior",
+    "description": "Interior painting project in a bathroom, using a light neutral tone on the walls to contrast and highlight the dark-colored vanity with marble countertop and gold fixtures.",
+    "imageBefore": "/gallery/image-47.jpeg",
+    "imageAfter": "/gallery/image-48.jpeg",
+    "isBeforeAfter": true
+  },
+  {
     "id": 56,
     "title": "Exterior House Painting with Blue Siding in Winter Setting",
     "category": "exterior",
@@ -438,8 +429,17 @@ export default function GalleryPage() {
     "imageBefore": "/gallery/image-56.jpeg",
     "imageAfter": "/gallery/image-56.jpeg",
     "isBeforeAfter": false
+  },
+  {
+    "id": 24,
+    "title": "Organization and Painting in Office Workspace",
+    "category": "commercial",
+    "description": "Painting project that contributed to an organized and visually pleasing office workspace, with colors that favor concentration.",
+    "imageBefore": "/gallery/image-24.jpeg",
+    "imageAfter": "/gallery/image-24.jpeg",
+    "isBeforeAfter": false
   }
-  ]
+]
 
   const filteredItems =
   activeFilter === "all" ? galleryItems : galleryItems.filter((item) => item.category === activeFilter)
