@@ -186,7 +186,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {/* Before/After 1 */}
-              <div className="relative group overflow-hidden rounded-lg">
+              <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
                   alt="Before and After Painting"
@@ -200,10 +200,10 @@ export default function Home() {
                     <p className="text-sm">Interior Painting</p>
                   </div>
                 </div>
-              </div>
+              </Link>
 
               {/* Before/After 2 */}
-              <div className="relative group overflow-hidden rounded-lg">
+              <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
                   alt="Before and After Painting"
@@ -217,10 +217,10 @@ export default function Home() {
                     <p className="text-sm">Exterior Painting</p>
                   </div>
                 </div>
-              </div>
+              </Link>
 
               {/* Before/After 3 */}
-              <div className="relative group overflow-hidden rounded-lg">
+              <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
                   alt="Before and After Painting"
@@ -234,10 +234,10 @@ export default function Home() {
                     <p className="text-sm">Cabinet Painting</p>
                   </div>
                 </div>
-              </div>
+              </Link>
 
               {/* Before/After 4 */}
-              <div className="relative group overflow-hidden rounded-lg">
+              <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
                   alt="Before and After Painting"
@@ -251,10 +251,10 @@ export default function Home() {
                     <p className="text-sm">Commercial Painting</p>
                   </div>
                 </div>
-              </div>
+              </Link>
 
               {/* Before/After 5 */}
-              <div className="relative group overflow-hidden rounded-lg">
+              <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
                   alt="Before and After Painting"
@@ -268,10 +268,10 @@ export default function Home() {
                     <p className="text-sm">Deck Staining</p>
                   </div>
                 </div>
-              </div>
+              </Link>
 
               {/* Before/After 6 */}
-              <div className="relative group overflow-hidden rounded-lg">
+              <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
                   src="/placeholder.svg?height=600&width=800"
                   alt="Before and After Painting"
@@ -285,17 +285,102 @@ export default function Home() {
                     <p className="text-sm">Interior Painting</p>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
 
-            <div className="text-center mt-8">
+            <div className="text-center mt-2">
               <Link href="/gallery">
                 <Button className="bg-blue-700 hover:bg-blue-800">View Full Gallery</Button>
               </Link>
             </div>
           </div>
         </section>
-        
+
+        <section id="contact" className="py-16">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Ready to transform your space? Get in touch with us through any of these channels.
+              </p>
+            </div>
+
+            <div className="max-w-3xl mx-auto">
+            <div className="flex flex-col md:flex-row gap-8">
+  {/* Phone */}
+  <div className="bg-white p-8 rounded-lg shadow-md text-center flex-1">
+    <div className="inline-flex items-center justify-center w-16 h-16 mb-4 bg-blue-50 rounded-full">
+      <Phone className="h-8 w-8 text-blue-700" />
+    </div>
+    <h3 className="text-xl font-bold mb-2">Phone</h3>
+    <p className="text-gray-600">(555) 123-4567</p>
+    <a
+      href="tel:+15551234567"
+      className="mt-4 inline-flex items-center text-blue-700 hover:text-blue-800"
+    >
+      Call Now
+    </a>
+  </div>
+
+  {/* WhatsApp */}
+  <div className="bg-white p-8 rounded-lg shadow-md text-center flex-1">
+    <div className="inline-flex items-center justify-center w-16 h-16 mb-4 bg-blue-50 rounded-full">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="h-8 w-8 text-blue-700"
+      >
+        <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+        <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+        <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+        <path d="M9.5 13.5c.5 1.5 2.5 2 4 1" />
+      </svg>
+    </div>
+    <h3 className="text-xl font-bold mb-2">WhatsApp</h3>
+    <p className="text-gray-600">(555) 123-4567</p>
+    <a
+      href="https://wa.me/15551234567"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-4 inline-flex items-center text-blue-700 hover:text-blue-800"
+    >
+      Message Us
+    </a>
+  </div>
+
+  {/* Instagram */}
+  <div className="bg-white p-8 rounded-lg shadow-md text-center flex-1">
+    <div className="inline-flex items-center justify-center w-16 h-16 mb-4 bg-blue-50 rounded-full">
+      <Instagram className="h-8 w-8 text-blue-700" />
+    </div>
+    <h3 className="text-xl font-bold mb-2">Instagram</h3>
+    <p className="text-gray-600">@odapainting</p>
+    <a
+      href="https://instagram.com/odapainting"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-4 inline-flex items-center text-blue-700 hover:text-blue-800"
+    >
+      Follow Us
+    </a>
+  </div>
+</div>
+
+              <div className="mt-12 text-center">
+                <Button size="lg" className="bg-blue-700 hover:bg-blue-800">
+                  Get a Free Estimate
+                </Button>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}

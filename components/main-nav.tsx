@@ -24,7 +24,7 @@ export function MainNav({ className }: { className?: string }) {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/">
-              <span className="text-2xl font-bold text-black">Oda Painting Services</span>
+              <span className="text-xl font-bold text-black">Oda Painting Services</span>
           </Link>
         </div>
 
