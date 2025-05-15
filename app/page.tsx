@@ -188,7 +188,7 @@ export default function Home() {
               {/* Before/After 1 */}
               <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/gallery/image-13.jpeg?height=600&width=800"
                   alt="Before and After Painting"
                   width={800}
                   height={600}
@@ -196,8 +196,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 text-white">
-                    <p className="font-bold">Living Room Transformation</p>
-                    <p className="text-sm">Interior Painting</p>
+                    <p className="font-bold">Custom Exterior Painting of a Modern School Building</p>
+                    <p className="text-sm">Commercial Painting</p>
                   </div>
                 </div>
               </Link>
@@ -205,7 +205,7 @@ export default function Home() {
               {/* Before/After 2 */}
               <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/gallery/image-16.jpeg?height=600&width=800"
                   alt="Before and After Painting"
                   width={800}
                   height={600}
@@ -213,7 +213,7 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 text-white">
-                    <p className="font-bold">Home Exterior Refresh</p>
+                    <p className="font-bold">Office Reception with Blue Accent Wall Painting</p>
                     <p className="text-sm">Exterior Painting</p>
                   </div>
                 </div>
@@ -222,7 +222,7 @@ export default function Home() {
               {/* Before/After 3 */}
               <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/gallery/image-29.jpeg?height=600&width=800"
                   alt="Before and After Painting"
                   width={800}
                   height={600}
@@ -230,8 +230,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 text-white">
-                    <p className="font-bold">Kitchen Cabinet Refinishing</p>
-                    <p className="text-sm">Cabinet Painting</p>
+                    <p className="font-bold">Residential Exterior Painting in Dark Blue</p>
+                    <p className="text-sm">Exterior Painting</p>
                   </div>
                 </div>
               </Link>
@@ -239,7 +239,7 @@ export default function Home() {
               {/* Before/After 4 */}
               <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/gallery/image-37.jpeg?height=600&width=800"
                   alt="Before and After Painting"
                   width={800}
                   height={600}
@@ -247,8 +247,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 text-white">
-                    <p className="font-bold">Office Space Renovation</p>
-                    <p className="text-sm">Commercial Painting</p>
+                    <p className="font-bold">Exterior House Painting with Fresh Yellow Siding</p>
+                    <p className="text-sm">Exterior Painting</p>
                   </div>
                 </div>
               </Link>
@@ -256,7 +256,7 @@ export default function Home() {
               {/* Before/After 5 */}
               <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/gallery/image-44.jpeg?height=600&width=800"
                   alt="Before and After Painting"
                   width={800}
                   height={600}
@@ -264,8 +264,8 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 text-white">
-                    <p className="font-bold">Deck Restoration</p>
-                    <p className="text-sm">Deck Staining</p>
+                    <p className="font-bold">Living Room Interior Painting with Gray Built-in Shelves</p>
+                    <p className="text-sm">Interior Painting</p>
                   </div>
                 </div>
               </Link>
@@ -273,7 +273,7 @@ export default function Home() {
               {/* Before/After 6 */}
               <Link href="/gallery" className="relative group overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/gallery/image-54.jpeg?height=600&width=800"
                   alt="Before and After Painting"
                   width={800}
                   height={600}
@@ -281,14 +281,14 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 text-white">
-                    <p className="font-bold">Bedroom Makeover</p>
-                    <p className="text-sm">Interior Painting</p>
+                    <p className="font-bold">Exterior House Painting with Dark Blue Siding</p>
+                    <p className="text-sm">Exterior Painting</p>
                   </div>
                 </div>
               </Link>
             </div>
 
-            <div className="text-center mt-2">
+            <div className="text-center mt-6">
               <Link href="/gallery">
                 <Button className="bg-blue-700 hover:bg-blue-800">View Full Gallery</Button>
               </Link>
@@ -296,87 +296,159 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contact" className="py-16">
+<section id="contact" className="py-16 from-white to-blue-50 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
+              <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Ready to transform your space? Get in touch with us through any of these channels.
+                Ready to transform your space? Reach out to us for a free consultation and estimate.
               </p>
             </div>
 
-            <div className="max-w-3xl mx-auto">
-            <div className="flex flex-col md:flex-row gap-8">
-  {/* Phone */}
-  <div className="bg-white p-8 rounded-lg shadow-md text-center flex-1">
-    <div className="inline-flex items-center justify-center w-16 h-16 mb-4 bg-blue-50 rounded-full">
-      <Phone className="h-8 w-8 text-blue-700" />
-    </div>
-    <h3 className="text-xl font-bold mb-2">Phone</h3>
-    <p className="text-gray-600">(555) 123-4567</p>
-    <a
-      href="tel:+15551234567"
-      className="mt-4 inline-flex items-center text-blue-700 hover:text-blue-800"
-    >
-      Call Now
-    </a>
-  </div>
+            <div className="max-w-5xl mx-auto">
+              <div className="bg-white rounded-xl shadow-xl overflow-hidden">
+                <div className="grid grid-cols-1 lg:grid-cols-5">
+                  {/* Contact Info */}
+                  <div className="lg:col-span-2 bg-blue-700 text-white p-8 lg:p-12">
+                    <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+                    <p className="mb-8 opacity-90">
+                      We're here to answer any questions you have about our painting services.
+                    </p>
 
-  {/* WhatsApp */}
-  <div className="bg-white p-8 rounded-lg shadow-md text-center flex-1">
-    <div className="inline-flex items-center justify-center w-16 h-16 mb-4 bg-blue-50 rounded-full">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="h-8 w-8 text-blue-700"
-      >
-        <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
-        <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
-        <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
-        <path d="M9.5 13.5c.5 1.5 2.5 2 4 1" />
-      </svg>
-    </div>
-    <h3 className="text-xl font-bold mb-2">WhatsApp</h3>
-    <p className="text-gray-600">(555) 123-4567</p>
-    <a
-      href="https://wa.me/15551234567"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-4 inline-flex items-center text-blue-700 hover:text-blue-800"
-    >
-      Message Us
-    </a>
-  </div>
+                    <div className="space-y-6">
+                      <div className="flex items-start">
+                        <div className="bg-blue-600 p-3 rounded-full mr-4">
+                          <Phone className="h-5 w-5" />
+                        </div>
+                        <div>
+                          <p className="font-medium text-sm opacity-90">Phone</p>
+                          <a href="tel:+15551234567" className="text-lg hover:underline">
+                            (475) 237-8189
+                          </a>
+                        </div>
+                      </div>
 
-  {/* Instagram */}
-  <div className="bg-white p-8 rounded-lg shadow-md text-center flex-1">
-    <div className="inline-flex items-center justify-center w-16 h-16 mb-4 bg-blue-50 rounded-full">
-      <Instagram className="h-8 w-8 text-blue-700" />
-    </div>
-    <h3 className="text-xl font-bold mb-2">Instagram</h3>
-    <p className="text-gray-600">@odapainting</p>
-    <a
-      href="https://instagram.com/odapainting"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-4 inline-flex items-center text-blue-700 hover:text-blue-800"
-    >
-      Follow Us
-    </a>
-  </div>
-</div>
+                      <div className="flex items-start">
+                        <div className="bg-blue-600 p-3 rounded-full mr-4">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="h-5 w-5"
+                          >
+                            <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+                            <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+                            <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+                            <path d="M9.5 13.5c.5 1.5 2.5 2 4 1" />
+                          </svg>
+                        </div>
+                        <div>
+                          <p className="font-medium text-sm opacity-90">WhatsApp</p>
+                          <a
+                            href="https://wa.me/14752378189"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-lg hover:underline"
+                          >
+                            (475) 237-8189
+                          </a>
+                        </div>
+                      </div>
 
-              <div className="mt-12 text-center">
-                <Button size="lg" className="bg-blue-700 hover:bg-blue-800">
-                  Get a Free Estimate
-                </Button>
+                      <div className="flex items-start">
+                        <div className="bg-blue-600 p-3 rounded-full mr-4">
+                          <Mail className="h-5 w-5" />
+                        </div>
+                        <div>
+                          <p className="font-medium text-sm opacity-90">Email</p>
+                          <a href="mailto:odapaintingservices@gmail.com" className="text-lg hover:underline">
+                            odapaintingservices@gmail.com
+                          </a>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start">
+                        <div className="bg-blue-600 p-3 rounded-full mr-4">
+                          <Instagram className="h-5 w-5" />
+                        </div>
+                        <div>
+                          <p className="font-medium text-sm opacity-90">Instagram</p>
+                          <a
+                            href="https://instagram.com/odapaintingservices
+"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-lg hover:underline"
+                          >
+                            @odapaintingservices
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Quick Contact Options */}
+                  <div className="lg:col-span-3 p-8 lg:p-12">
+                    <h3 className="text-2xl font-bold mb-6 text-gray-800">Quick Contact</h3>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                      <a
+                        href="https://wa.me/14752378189"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-3 p-4 border border-blue-200 rounded-lg hover:bg-blue-50 transition-colors"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="h-5 w-5 text-blue-700"
+                        >
+                          <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+                          <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+                          <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+                          <path d="M9.5 13.5c.5 1.5 2.5 2 4 1" />
+                        </svg>
+                        <span className="font-medium">WhatsApp Us</span>
+                      </a>
+
+                      <a
+                        href="https://instagram.com/odapaintingservices"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-3 p-4 border border-blue-200 rounded-lg hover:bg-blue-50 transition-colors"
+                      >
+                        <Instagram className="h-5 w-5 text-blue-700" />
+                        <span className="font-medium">DM on Instagram</span>
+                      </a>
+                    </div>
+
+                    <div className="bg-blue-50 p-6 rounded-lg">
+                      <h4 className="font-bold text-lg mb-3 text-gray-800">Request a Free Estimate</h4>
+                      <p className="text-gray-600 mb-4">
+                        
+Get in touch and receive a quote within 24 hours, free of charge and without obligation
+                      </p>
+                      <Button className="w-full bg-blue-700 hover:bg-blue-800">Get Your Free Estimate</Button>
+                    </div>
+
+                    <div className="mt-8 text-center text-gray-500 text-sm">
+                      <p>Business Hours: Monday-Friday 8AM-6PM, Saturday 9AM-2PM</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -389,23 +461,13 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Image
-                  src="/placeholder.svg?height=40&width=40"
-                  alt="Oda Painting Logo"
-                  width={40}
-                  height={40}
-                  className="rounded bg-white"
-                />
-                <span className="text-xl font-bold">Oda Painting</span>
+                <span className="text-xl font-bold">Oda Painting Services</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Professional painting services for residential and commercial properties across the United States.
               </p>
               <div className="flex space-x-4">
-                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
-                  <Facebook className="h-5 w-5" />
-                </Link>
-                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="https://www.instagram.com/odapaintingservices/" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                   <Instagram className="h-5 w-5" />
                 </Link>
               </div>
@@ -427,11 +489,6 @@ export default function Home() {
                 <li>
                   <Link href="/gallery" className="text-gray-400 hover:text-white transition-colors">
                     Gallery
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#testimonials" className="text-gray-400 hover:text-white transition-colors">
-                    Testimonials
                   </Link>
                 </li>
                 <li>
@@ -470,11 +527,6 @@ export default function Home() {
                     Cabinet Refinishing
                   </Link>
                 </li>
-                <li>
-                  <Link href="#" className="text-gray-400 hover:text-white transition-colors">
-                    Deck & Fence Staining
-                  </Link>
-                </li>
               </ul>
             </div>
 
@@ -483,15 +535,11 @@ export default function Home() {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <Phone className="h-5 w-5 mr-2 text-gray-400" />
-                  <span className="text-gray-400">(555) 123-4567</span>
+                  <span className="text-gray-400">+(475) 237-8189</span>
                 </li>
                 <li className="flex items-start">
                   <Mail className="h-5 w-5 mr-2 text-gray-400" />
-                  <span className="text-gray-400">info@odapainting.com</span>
-                </li>
-                <li className="flex items-start">
-                  <MapPin className="h-5 w-5 mr-2 text-gray-400" />
-                  <span className="text-gray-400">123 Paint Street, Colorful City, CA 90210</span>
+                  <span className="text-gray-400">odapaintingservices@gmail.com</span>
                 </li>
                 <li className="flex items-start">
                   <Clock className="h-5 w-5 mr-2 text-gray-400" />
@@ -502,7 +550,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; {new Date().getFullYear()} Oda Painting Services. All rights reserved.</p>
+            <p>{new Date().getFullYear()} - Oda Painting Services</p>
           </div>
         </div>
       </footer>

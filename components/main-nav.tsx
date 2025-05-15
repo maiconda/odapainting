@@ -43,9 +43,9 @@ export function MainNav({ className }: { className?: string }) {
             Contact
           </Link>
         </nav>
-
+            <Link href="https://wa.me/14752378189" target="_blank">
         <Button className="hidden md:inline-flex bg-blue-700 hover:bg-blue-800">Get a Quote</Button>
-
+</Link>
         {/* Mobile Menu Button */}
         <Button
           variant="ghost"
@@ -89,13 +89,6 @@ export function MainNav({ className }: { className?: string }) {
             Gallery
           </Link>
           <Link
-            href="/#testimonials"
-            className="text-sm font-medium hover:text-blue-700 transition-colors px-2 py-2"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Testimonials
-          </Link>
-          <Link
             href="/#contact"
             className="text-sm font-medium hover:text-blue-700 transition-colors px-2 py-2"
             onClick={() => setIsMenuOpen(false)}
@@ -103,7 +96,9 @@ export function MainNav({ className }: { className?: string }) {
             Contact
           </Link>
           <div className="pt-2">
+            <Link href="https://wa.me/14752378189" target="_blank">
             <Button className="w-full bg-blue-700 hover:bg-blue-800">Get a Quote</Button>
+          </Link>
           </div>
         </nav>
       </div>
