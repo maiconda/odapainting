@@ -372,7 +372,8 @@ export default function Home() {
                         <div>
                           <p className="font-medium text-sm opacity-90">Email</p>
                           <a href="mailto:odapaintingservices@gmail.com" className="text-lg hover:underline">
-                            odapaintingservices@gmail.com
+                            odapaintingservices
+                            @gmail.com
                           </a>
                         </div>
                       </div>
