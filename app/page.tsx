@@ -34,9 +34,12 @@ export default function Home() {
                 States.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="#contact">
                 <Button size="lg" className="bg-blue-700 hover:bg-blue-800">
                   Get a Free Estimate
                 </Button>
+                </Link>
+                                <Link href="/gallery">
                 <Button
                   size="lg"
                   variant="outline"
@@ -44,6 +47,7 @@ export default function Home() {
                 >
                   View Our Work
                 </Button>
+                </Link>
               </div>
             </div>
           </div>
