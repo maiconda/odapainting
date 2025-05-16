@@ -445,7 +445,9 @@ export default function Home() {
                         
 Get in touch and receive a quote within 24 hours, free of charge and without obligation
                       </p>
+                      <a href="https://wa.me/14752378189" target="_blank">
                       <Button className="w-full bg-blue-700 hover:bg-blue-800">Get Your Free Estimate</Button>
+</a>
                     </div>
 
                     <div className="mt-8 text-center text-gray-500 text-sm">
